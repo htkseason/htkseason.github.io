@@ -1,0 +1,26 @@
+body {
+    background-color: #ddd;
+}
+
+.main {
+    background-color: #eee;
+    padding: 30px;
+    font-family: "Times";
+    font-size: 15px
+}
+
+.intro {
+    padding-bottom: 10px;
+}
+
+.proj {}
+
+.proj-teaser {
+    width: 150px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.proj-des {
+    line-height: 150%
+}
