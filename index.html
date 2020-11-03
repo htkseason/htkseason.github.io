@@ -17,16 +17,25 @@
     padding-bottom: 10px;
   }
 
+  .intro-des {
+    padding-left: 10px;
+  }
+
   .proj {}
 
-  .proj-table {}
+  .proj-table {
+    padding-top: 0px;
+  }
 
   .proj-teaser {
     width: 200px;
     height: 200px;
     padding-left: 10px;
     padding-right: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+  }
+  img{
+    width:100%; height:auto;;
   }
 
   .proj-des {
@@ -37,6 +46,7 @@
   .proj-des-highlight {
     color: red;
   }
+
 </style>
 
 <head>
@@ -50,12 +60,14 @@
   <div class="main">
     <div class="intro">
       <h1>Zhixiang Min</h1>
-      I am a third-year Ph.D. student at Stevens Institute of Technology, under the supervision of <a
-        href="https://www.cs.stevens.edu/~edunn/">Prof. Enrique Dunn</a>. Before, I received my BSc from Donghua
-      University.
-      <p>I am insterested in studying visual odometry, SLAM, multi-view stereo, image-based rendering and learning-based
-        aforementioned tasks.</p>
-      <p>Email: zmin1 [at] stevens.edu</p>
+      <div class="intro-des">
+        I am a third-year Ph.D. student at Stevens Institute of Technology, under the supervision of <a
+          href="https://www.cs.stevens.edu/~edunn/">Prof. Enrique Dunn</a>. Before, I received my BSc from Donghua
+        University.
+        <p>I am insterested in studying visual odometry, SLAM, multi-view stereo, image-based rendering and learning-based
+          aforementioned tasks.</p>
+        <p>Email: zmin1 [at] stevens.edu</p>
+      </div>
     </div>
     <div class="proj">
       <h1>Projects</h1>
@@ -78,7 +90,7 @@
             </tr>
             <!-- cvpr 2020 -->
             <tr>
-              <td><img class="proj-teaser" src="./cvpr2020-teaser.gif"></td>
+              <td class="proj-teaser"><img src="./cvpr2020-teaser.gif"></td>
               <td class="proj-des">
                 <b>VOLDOR: Visual Odometry from Log-logistic Dense Optical flow Residuals</b><br>
                 <b>Zhixiang Min</b>, Yiding Yang, Enrique Dunn <br> CVPR 2020 (Oral) <br>
