@@ -1,5 +1,21 @@
 <html>
 <style>
+    a:link{
+    color:blue;
+    }
+    a:visited{
+      color:blue;
+    }
+    a:hover{
+      color:orange;
+    }
+    a:focus{
+      color:green;
+    }
+    a:active{
+      color:red;
+    }
+
   body {
     background-color: #ddd;
   }
@@ -14,7 +30,7 @@
   }
 
   .main {
-    width: 888px;
+    width: 800px;
     margin: auto auto;
     background-color: #eee;
     padding: 80px;
@@ -64,6 +80,12 @@
   .proj-des-highlight {
     color: #FF33CC;
   }
+
+  .proj-detail {
+    line-height: 1;
+    font-size: 12px;
+    color: #3d8a9c;
+  }
 </style>
 
 <head>
@@ -78,13 +100,25 @@
   <div class="main">
     <div class="intro">
       <h1>Zhixiang Min</h1>
-      <img class="me" src="./me.jpg">
+      <img class="me" src="./me2.jpg">
       <div class="intro-des">
-        I am a Ph.D. student (2018-) at Stevens Institute of Technology, under the supervision of Prof.
-        <a href="https://www.cs.stevens.edu/~edunn/">Enrique Dunn</a>. Before, I received my BSc from Donghua
-        University.
-        <p>My research focuses on 3D computer vision. </p>
-        <p>Email: zmin1 [at] stevens.edu</p>
+        I am a Ph.D. student (2018-) in Computer Science at Stevens Institute of Technology, advised by Professor <a href="https://www.cs.stevens.edu/~edunn/">Enrique Dunn</a>. 
+        I spent summer internships at Zillow and NEC Lab. 
+
+        <p>
+        My research interest lies in 3D computer vision (SfM, SLAM, localization, reconstruction) and recently image-based rendering. 
+        My works during PhD focus on closing the gap between deep learning methods and 3D vision problems. 
+        Specifically, I design localization algorithms that ultilizes deep learning to improve challenging conditions and solve ill-pose problems,
+        while, importantly, maintaining the geometric interpretabilities. 
+        </p>
+        
+        
+        <p>
+          Email: <a href="mailto:zmin1@stevens.edu">zmin1 [at] stevens.edu</a> <br>
+          <a href="https://scholar.google.com/citations?user=UR8AjXIAAAAJ">[Google Scholar]</a> / <a href="https://www.linkedin.com/in/zhixiang-min-12b87a1a3/">[LinkedIn]</a> / <a href="./CV - Zhixiang Min.pdf">[CV]</a>
+        </p>
+
+        </p>
       </div>
     </div>
 
@@ -143,7 +177,7 @@
                 <b><a href="https://github.com/htkseason/VOLDOR">
                   VOLDOR-SLAM: For the times when feature-based or direct methods are not good enough </a></b><br>
                   <b>Zhixiang Min</b>, 
-                  <a href="https://enriquedunn.github.io/">Enrique Dunn</a>,  
+                  <a href="https://enriquedunn.github.io/">Enrique Dunn</a>  
                   <br> <b>ICRA 2021</b> <br>
                 <a href="https://arxiv.org/abs/2104.06800">[pdf]</a>
                 <a href="https://www.youtube.com/watch?v=sz8O953cXc0">[video]</a>
@@ -151,7 +185,7 @@
                 <b><span class="proj-des-highlight">Our SLAM solution has achieved 2nd place in both
                     tracks (monocular, stereo) of 
                     <a href="https://sites.google.com/view/vislocslamcvpr2020/slam-challenge">CVPR'20 SLAM Challenge</a> 
-                    with realtime performance.</span>
+                    while retaining realtime .</span>
                 </b>
               </td>
             </tr>
@@ -170,7 +204,13 @@
                 <a href="./voldor-appendix.pdf">[appendix]</a>
                 <a href="https://www.youtube.com/watch?v=wlWjSTiyE4s">[video]</a>
                 <a href="https://github.com/htkseason/VOLDOR">[code]</a> <br> 
-                (Some typos in camready are fixed in the arxiv version.)
+                (Some typos in camready are fixed in the arxiv version.) <br>
+                <!--- <b><p class="proj-detail">
+                  A visual odometry framework using dense optical flows (OF) as input. 
+                  We address the fine-grained flow residual modelling and design an efficient optimization method for dense OFs. 
+                  The method achieves superior performance
+                </p>
+                --->
               </td>
             </tr>
 
